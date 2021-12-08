@@ -111,7 +111,71 @@
       <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">
         User Interface
       </h3>
-      <img src=".png" alt="UI" />
+      <img src="ui.png" alt="UI" />
+    </div>
+
+    <!-- Algorithms Slideshow -->
+    <div class="w3-container w3-padding-32">
+      <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">
+        Algorithms
+      </h3>
+      <iframe
+        src="https://docs.google.com/presentation/d/e/2PACX-1vRiTF3LAyqSn76NsBO111of9RIwU0IsHgS_0qFBXOw6EPyjonHo9ibil79bZfvj8rbmE3rpf3-M5KFM/embed?start=false&loop=false&delayms=60000"
+        frameborder="0"
+        width="960"
+        height="569"
+        allowfullscreen="true"
+        mozallowfullscreen="true"
+        webkitallowfullscreen="true"
+      ></iframe>
+    </div>
+
+    <div
+      class="w3-container w3-padding-32"
+      style="max-width: 100%"
+      id="problem"
+    >
+      <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">
+        Database
+      </h3>
+      <h4>
+        <ul>
+          <li>We are likely to have 2 main databases for Items and Users</li>
+          <li>
+            The plan is to use the ODU systems group provided databases for our
+            backend data storage using mySQL
+          </li>
+          <li>
+            ITEM(ItemID, Name, Description, Price, ImageLink, Location,
+            RenterID)
+          </li>
+          <li>
+            USER(UserID, FirstName, LastName, ProfileDescription, Rating,
+            Username, Password, Email)
+          </li>
+          <li>
+            We will also provide more databases to facilitate owner-renter
+            communications, such as the following
+          </li>
+          <li>REQUEST(RequestID, ItemID, UserID)</li>
+          <li>
+            RATING(ReviewID, UserID, RaterID, Rating, ReviewText, ReviewType)
+          </li>
+          <li>MESSAGE(MessageID, RequestID, MessageText, MessageSender)</li>
+        </ul>
+      </h4>
+    </div>
+
+    <!-- Data Management -->
+    <div
+      class="w3-container w3-padding-32"
+      style="max-width: 100%"
+      id="problem"
+    >
+      <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">
+        Data Management
+      </h3>
+      <img src="data.png" alt="UI" />
     </div>
   </body>
 </html>
